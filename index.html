@@ -5,13 +5,14 @@
     <title>Pokemon Go</title>
     <link rel="stylesheet" href="main.css">
 
+
   </head>
   <body>
 
     <nav>
         <a href="#About">About</a>
         <a href="#Events">Events</a>
-        <a href="#contact">Contact</a>
+        <a href="#Footer">Contact</a>
       </nav>
 
       <div id='Intro'>
@@ -36,17 +37,26 @@
 <!-- Events taken from following link:
 https://pokemongohub.net/post/event/pokemon-go-valentine-day-2019/ -->
           <div id="Events">
-            <div id="imageContainer">
+
+            <div class='left' onClick='changePic(-1)'></div>
+              <div id="ImagesContainer">
+                <h1>Events</h1>
+                  <img class="slideshowImages" src='./media/Event0.jpg' alt='PogoImage'/>
               </div>
+            <div class='right' onClick='changePic(1)'></div>
+
             </div>
 
           </div>
 
-        <div id='contact'>
-            Contact
+        <footer>
+          <div id='Footer'>
+            <a href="https://twitter.com/pokemongoapp?lang=en">Twitter</a>
+            <a href="https://www.facebook.com/groups/PokeGoNYC/">Facebook</a>
           </div>
+          </footer>
 
 
-
+  <script src="main.js" ></script>
   </body>
 </html>
