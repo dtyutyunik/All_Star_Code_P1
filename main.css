@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.bodyContainer{
+  width: auto;
+  height: 400px;
+  border: 1px solid black;
+
+}
+
+#contact{
+  width: auto;
+  height: 500px;
+  background-color: green;
+}
+
+img{
+  height: 200px;
+  width: 300px;
+}
+
+
+
+
+#Intro{
+  background-image: url('./media/central_park.jpg');
+  background-attachment: fixed;
+  height: 500px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.pogo{
+  align-self: center;
+}
+
+.pogo:hover{
+  transform: scale(1.5);
+}
+
+#About{
+  display: flex;
+  height: 400px;
+}
+
+
+
+#About >div{
+  flex: 1 1;
+  font-size: 1.4em;
+  text-align: center;
+  padding: .8em;
+}
+
+iframe{
+  height: 100%;
+  width: 100%;
+  border: 1px solid green;
+}
+
+.Events{
+  border:1px solid purple;
+}
